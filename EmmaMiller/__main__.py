@@ -66,14 +66,14 @@ from EmmaMiller.modules.system_stats import bot_sys_stats
 
 
 TEXT = """
-Hey there! [👋](https://telegra.ph/file/b20df9de0562022dbe33a.jpg)  
-My name is [Emma Miller](https://t.me/EmmaMillerBot) ✨
+Hey there! [👋](https://telegra.ph/file/455edb776c98f16b991fa.jpg)  
+My name is [Shadiyo](https://t.me/SHADIYObot) ✨
 
 I can manage your  group with lots of useful features, feel free to add me to your group.
 
-✨ Pọwẹrẹɗ Ɓy : @BotMasterOfficial
+✨ Pọwẹrẹɗ Ɓy : @somalibots
 ✮───────────────✮
-🌟 𝙳𝚎𝚟𝚎𝚕𝚘𝚙𝚎𝚛 : [Mukesh Solanki](https://t.me/mkspali)
+🌟 𝙳𝚎𝚟𝚎𝚕𝚘𝚙𝚎𝚛 : [Attack](https://t.me/Yaamiin)
 ✮───────────────✮
 """
 
@@ -95,12 +95,12 @@ STICKERS = "CAACAgUAAx0CS6YhoQAC02VhQUW7iB4ci3lcSXHtLVOjFzZlDQACUQMAAvPvEVY76k2Q
 MENU = [
     [
         InlineKeyboardButton(
-            text="➕️ 𝐀𝐃𝐃 𝐌𝐄 𝐓𝐎 𝐘𝐎𝐔𝐑 𝐆𝐑𝐎𝐔𝐏 ➕️", url="http://t.me/EmmaMillerBot?startgroup=true"),
+            text="➕️ 𝐀𝐃𝐃 𝐌𝐄 𝐓𝐎 𝐘𝐎𝐔𝐑 𝐆𝐑𝐎𝐔𝐏 ➕️", url="http://t.me/SHADIYObot?startgroup=true"),
     ],
     [
         InlineKeyboardButton(text="💠 Bot updates 💠", url=f"https://t.me/BotMasterOfficial"),
         InlineKeyboardButton(
-            text="💠 Repo 💠", url=f"https://github.com/BotMasterOfficial/EmmaMiller"
+            text="💠 Owner 💠", url=f"https://t.me/Yaamiin"
         ),
     ],
     [
@@ -118,9 +118,9 @@ PM_START_TEXT = """Hey there! [👋](https://telegra.ph/file/b20df9de0562022dbe3
 My name is [Emma Miller](https://t.me/EmmaMillerBot) ✨
 I can manage your  group with lots of useful features, feel free to add me to your group.
 
-✨ Pọwẹrẹɗ Ɓy : @BotMasterOfficial
+✨ Pọwẹrẹɗ Ɓy : @Somalibots
 ✮───────────────✮
-🌟 𝙳𝚎𝚟𝚎𝚕𝚘𝚙𝚎𝚛 : [Mukesh Solanki](https://t.me/mkspali)
+🌟 𝙳𝚎𝚟𝚎𝚕𝚘𝚙𝚎𝚛 : [Attack](https://t.me/Yaamiin)
 ✮───────────────✮
 
 *Main* available commands:
@@ -401,10 +401,10 @@ def EmmaMiller_about_callback(update, context):
                 [
                     [
                         InlineKeyboardButton(
-                            text="💠 Bᴜɢ'ꜱ 💠", url="t.me/BotMasterOfficial"
+                            text="💠 Bᴜɢ'ꜱ 💠", url="t.me/somalibots_help"
                         ),
                         InlineKeyboardButton(
-                            text="💠 updates️ 💠", url="t.me/BotMaster_mkspali"
+                            text="💠 updates️ 💠", url="t.me/somalibots"
                         ),
                     ],
                     [
@@ -515,16 +515,16 @@ def EmmaMiller_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="💠 Bot Master 💠", url="https://t.me/BotMasterOfficial"),
-                    InlineKeyboardButton(text="💠 Mukesh Solanki 💠", url="https://t.me/mkspali"),
+                    InlineKeyboardButton(text="💠 Bot Master 💠", url="https://t.me/somalibots"),
+                    InlineKeyboardButton(text="💠 Attack 💠", url="https://t.me/yaamiin"),
                  ],
                  [
                     InlineKeyboardButton(text="💠 RMCMG Group 💠", url="https://t.me/RMCMG_Group"),
                     InlineKeyboardButton(text="💠 RMCMG Channel 💠", url="https://t.me/RMCMG"),
                  ],
                  [
-                    InlineKeyboardButton(text="💠 Support Group 💠", url="https://t.me/BotMasterOfficial"),
-                    InlineKeyboardButton(text="💠 Jarvis 💠", url="https://t.me/Jarvis_RMCMG_Bot"),
+                    InlineKeyboardButton(text="💠 Support Group 💠", url="https://t.me/somalibota"),
+                    InlineKeyboardButton(text="💠 Abdisamad 💠", url="https://t.me/Somaliprogrammer"),
                  ],   
                  [
                     InlineKeyboardButton(text="Back", callback_data="aboutmanu_howto"),
